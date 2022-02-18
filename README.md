@@ -1,3 +1,4 @@
+```
 root@pve-1:~# apt install build-essential pve-headers-5.13 bison flex autoconf automake make build-essential
 
 
@@ -59,3 +60,4 @@ parm:           bsize:RX Bulk IN Queue Size (int)
 parm:           ifg:RX Bulk IN Inter Frame Gap (int)
 parm:           bEEE:EEE advertisement configuration (int)
 parm:           bGETH:Green ethernet configuration (int)
+```
