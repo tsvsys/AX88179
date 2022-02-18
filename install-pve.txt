@@ -2,7 +2,7 @@
 detailed installation on Proxmox VE7 with 5.13 Kernel.
 tested with TP-Link UE306 USB Dongles - worked fine https://www.tp-link.com/us/home-networking/usb-converter/ue306/  
 
-root@pve-1:~# apt install build-essential pve-headers-5.13 bison flex autoconf automake make build-essential
+root@pve-1:~# apt install build-essential pve-headers-5.13 bison flex autoconf automake
 
 root@pve-1:~# tar -xjvf AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x.tbz2
 AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x/
