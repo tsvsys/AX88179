@@ -37,8 +37,8 @@ root@pve-1:~/AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x# system
 [127839.563008] ax88179_178a 2-1:1.0 eth1: register 'ax88179_178a' at usb-0000:00:14.0-1, , 7c:c2:c6:28:b3:89
 [127839.563051] usbcore: registered new interface driver ax88179_178a
 
-root@pve-1:~/AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.13# modinfo ax88179_178a
-filename:       /lib/modules/5.13.19-3-pve/kernel/drivers/net/usb/ax88179_178a.ko
+root@pve-1:~/AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x# modinfo ax88179_178a
+filename:       /lib/modules/5.13.19-4-pve/kernel/drivers/net/usb/ax88179_178a.ko
 license:        GPL
 description:    ASIX AX88179_178A USB 2.0/3.0 Ethernet Devices
 author:         David Hollis
