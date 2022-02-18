@@ -1,5 +1,8 @@
-root@pve-1:~# apt install build-essential pve-headers-5.13 bison flex autoconf automake make build-essential
+```
+detailed installation on Proxmox VE7 with 5.13 Kernel.
+tested with TP-Link UE306 USB Dongles - worked fine https://www.tp-link.com/us/home-networking/usb-converter/ue306/  
 
+root@pve-1:~# apt install build-essential pve-headers-5.13 bison flex autoconf automake make build-essential
 
 root@pve-1:~# tar -xjvf AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x.tbz2
 AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x/
@@ -8,7 +11,6 @@ AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x/Makefile
 AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x/ax88179_178a.c
 AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x/readme
 AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x/ax88179_178a.h
-
 
 root@pve-1:~# cd AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x/
 root@pve-1:~/AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x# make
@@ -35,7 +37,6 @@ root@pve-1:~/AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.x# system
 [127839.563008] ax88179_178a 2-1:1.0 eth1: register 'ax88179_178a' at usb-0000:00:14.0-1, , 7c:c2:c6:28:b3:89
 [127839.563051] usbcore: registered new interface driver ax88179_178a
 
-
 root@pve-1:~/AX88179_178A_Linux_Driver_v1.20.0_source_patched_kernel.5.13# modinfo ax88179_178a
 filename:       /lib/modules/5.13.19-3-pve/kernel/drivers/net/usb/ax88179_178a.ko
 license:        GPL
@@ -59,3 +60,4 @@ parm:           bsize:RX Bulk IN Queue Size (int)
 parm:           ifg:RX Bulk IN Inter Frame Gap (int)
 parm:           bEEE:EEE advertisement configuration (int)
 parm:           bGETH:Green ethernet configuration (int)
+```
