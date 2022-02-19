@@ -54,7 +54,7 @@ alias:          usb:v0B95p1790d*dc*dsc*dp*ic*isc*ip*in*
 depends:        usbnet,mii
 retpoline:      Y
 name:           ax88179_178a
-vermagic:       5.13.19-3-pve SMP mod_unload modversions
+vermagic:       5.13.19-4-pve SMP mod_unload modversions
 parm:           msg_enable:usbnet msg_enable (int)
 parm:           bsize:RX Bulk IN Queue Size (int)
 parm:           ifg:RX Bulk IN Inter Frame Gap (int)
