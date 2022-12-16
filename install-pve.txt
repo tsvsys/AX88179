@@ -1,5 +1,5 @@
 ```
-detailed installation on Proxmox VE7 with 5.13 Kernel.
+detailed installation on Proxmox VE7 with 5.13-5.15 Kernel.
 tested with TP-Link UE306 USB Dongles - worked fine https://www.tp-link.com/us/home-networking/usb-converter/ue306/  
 
 root@pve-1:~# apt install build-essential pve-headers-5.13 bison flex autoconf automake
